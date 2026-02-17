@@ -1,0 +1,33 @@
+# Dependências
+/vendor/
+
+# Arquivos de upload
+/uploads/*
+!/uploads/.gitkeep
+
+# Arquivos de saída
+/output/*
+!/output/.gitkeep
+
+# Arquivos de teste
+teste_*.php
+teste_*.xlsx
+analisar_*.php
+verificar_*.php
+criar_*.php
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sessões PHP
+/tmp/
