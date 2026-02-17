@@ -438,7 +438,7 @@ session_start();
                 btnProcess.innerHTML = originalText;
                 
                 if (data.success) {
-                    alert('Sucesso! ' + data.total_rows + ' URLs geradas.\\n\\nO download começará automaticamente.');
+                    alert('Sucesso! ' + data.total_rows + ' URLs geradas.\n\nO download começará automaticamente.');
                     
                     // Fazer download do arquivo
                     window.location.href = data.download_url;
